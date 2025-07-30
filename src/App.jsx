@@ -17,7 +17,7 @@ function App() {
   return (
     <CartProvider>
       <WishlistProvider>
-        <Router>
+        <Router basename="/pushycosmetics">
           <div className="min-h-screen bg-gradient-to-b from-pink-50 to-white">
             <Navbar />
             <main className="flex-grow">
